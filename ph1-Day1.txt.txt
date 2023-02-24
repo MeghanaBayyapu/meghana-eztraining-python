@@ -1,0 +1,99 @@
+day 1 programs:
+1.#datatypes
+int1=int(input("ENTER THE FIRST INTEGER: "))
+int2=int(input ("ENTER THE SECOND  INTEGER:"))
+int3=int(input ("ENTER THE THRID INTEGER:"))
+print(  )
+float1=float(input ("ENTER THE FIRST FLOAT:"))
+float2=float(input ("ENTER THE SECOND FLOAT:"))
+float3=float(input ("ENTER THE THIRD FLOAT:"))
+print(  )
+str1=input ("ENTER THE FIRST STRING:")
+str2=input ("ENTER THE SECOND  STRING:")
+print(  )
+com=complex(input("ENTER  COMPLEX NUMBER "))
+print(  )
+print(" FIRST INTEGER:",int1)
+print(" SECOND  INTEGER:",int2)
+print(" THRID INTEGER:",int3)
+print(  )
+print(" FIRST FLOAT:",float1)
+print(" SECOND  FLOAT:",float2)
+print(" THIRD FLOAT:",float3)
+print(  )
+print(" FIRST STRING",str1)
+print(" SECOND STRING",str2)
+print(  )
+print(" COMPLEX",com)
+2.# swap of two number without using  temp
+num1=10
+num2=20
+print("before swap")
+print("enter the value of num1",num1)
+print("enter the value of num2",num2)
+num1,num2=num2,num1
+print("after swap")
+print("enter the value of num1",num1)
+print("enter the value of num2",num2)
+
+3.#swap of two number without using  temp
+num1=10
+num2=20
+print("before swap")
+print("enter the value of num1",num1)
+print("enter the value of num2",num2)
+temp=num1
+num1=num2
+num2=temp
+print("after swap")
+print("enter the value of num1",num1)
+print("enter the value of num2 ",num2)
+
+4.varaible  and it's type
+valid=10
+# 4invalid =10# invalid
+_num=10
+_1num=10
+
+print(type(34))
+print(type(9.0))# type () gives the type of the variable
+print(type(10+5j)) # only accepts i+j format in complex
+print(id(56)) #gives address of the data
+print(isinstance(55,int)) # check what type of data and gives o/p in the form of  bollean 
+print(isinstance(55.5,int))
+
+5.name
+print(chr(3077)+chr(3112)+chr(3137))#anu
+
+6.kumar has 75 candy he gave half of the candy to sam , sam again gave sam half of his candy.
+ how much candy does kumar has ?
+kumar=75 
+sam=kumar/2
+kumar=75-sam
+print( "candy left with kumar after giving to sam",kumar)
+kumar= kumar+sam/2
+print( "remaining candy with kumar" ,kumar)
+sam=sam/2
+print("remaining candy with sam", sam)
+
+
+7.num=36.32 mulipled 3 times and add 56.19 and print result after sunracting with 10
+num=36.32
+num=num*3
+num=num+56.19
+print("the final result is :",num-10)
+ 
+
+8. multiplying integer with float number
+
+num1=int(input("ENTER THE  POSITIVE INTEGER NUMBER:"))
+num2=float(input("ENTER THE NEGITIVE FLOAT NUMBER:"))
+num3=num1*num2
+print("the product is :",num3)           
+
+
+
+
+      
+
+
